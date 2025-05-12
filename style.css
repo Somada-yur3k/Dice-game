@@ -2,24 +2,21 @@
     margin: 0;
 }
 body{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background: linear-gradient(to right, #0f172a, #334155);
-    display:flex;
-    
-   
+    align-items: center;
+    width: screen;
+    height: 100vh;
+
 }
 img{
     width: 250px;
 }
 .container{
-
-    height: auto;
-    margin: auto;
-    width: auto;
-    margin-top: 100px;
+    text-align: center;
+    scale: .4;
    
-    
-    
 
 }
 h3{
@@ -57,15 +54,15 @@ p{
     
     justify-content: center;
     border-radius: 20px;
-    width: 900px;
+    width: 950px;
     border: 2px solid white;
     margin: 20px;
     
 }
-button{
+#mybtn{
     font-size: 25PX ;
-    width: 400px ;
-    height: 60px;
+    width:500px ;
+    height: 70px;
     font-weight: bold;
     font-family: Tahoma;
     background: none;
@@ -74,10 +71,78 @@ button{
     transition: 1.1s;
     
 } 
-button:hover{
+#mybtn:hover{
     background-color: aquamarine;
     color: rgb(67, 20, 88);
     transition: 1.1s;
-    width: 450px ;
-    height: 65px;
+    width: 600px ;
+    height: 75px;
+    font-size: 40px;
+}
+
+.Player-name{
+    justify-content: center;
+    border-radius: 20px;
+    width: 900px;
+    border: 2px solid white;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    
+}
+input{
+    font-size: 25px;
+    width: 395px ;
+    height: 70px;
+    font-weight: bold;
+    font-family: Tahoma;
+    background: none;
+    border: 1px solid white;
+    color: rgb(1, 185, 109);
+    transition: 1.1s;
+    margin-top: 20px;
+    font-family: Tahoma;
+
+}
+input:hover{
+    background-color: aquamarine;
+    color: rgb(67, 20, 88);
+    transition: 1.1s;
+    width: 400px ;
+    height: 75px;
+    font-size: 30px;
+}
+#done2{
+    margin-top: 20px;
+    width: 90%;
+    font-size: 25PX ;
+    height: 60px;
+    font-weight: bold;
+    font-family: Tahoma;
+    background: none;
+    border: 1px solid white;
+    color: aquamarine;
+    transition: 1.1s;
+}
+#done2:hover{
+    background-color: aquamarine;
+    color: rgb(67, 20, 88);
+    transition: 1.1s;
+}
+#Player-name2{
+    font-size: 60px;
+    color: #07f385;
+
+}
+#Player-name1{
+    font-size: 60px;
+    color: #07f385;
+}
+#players-name{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }

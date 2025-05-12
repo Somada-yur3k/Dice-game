@@ -1,3 +1,29 @@
+
+
+document.getElementById("done2").addEventListener("click", function () {
+  var player2 = document.getElementById("player2").value;
+  var player1 = document.getElementById("player1").value;
+  document.getElementById("Player-name2").textContent = player2;
+  document.getElementById("Player-name1").textContent = player1;
+
+  if (player1 === "") {
+    alert("Please Enter Player 1 Name");
+  }
+  else if (player2 === "") {
+    alert("Please Enter Player 2 Name");
+  }
+  else if (player1 === player2) {
+    alert("Player 1 and Player 2 Name Should be Different");
+  }
+   
+
+  console.log(player1);
+  console.log(player2);
+});
+
+
+
+
 document.getElementById("mybtn").addEventListener("click", function () {
   
   //Create a Random Dice Image to PLayer 1
