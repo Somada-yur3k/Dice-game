@@ -3,6 +3,7 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background: linear-gradient(to right, #0f172a, #334155);
     align-items: center;
@@ -14,8 +15,10 @@ img{
     width: 250px;
 }
 .container{
+  
     text-align: center;
     scale: .4;
+    margin-bottom: -200px;
    
 
 }
@@ -145,4 +148,33 @@ input:hover{
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
+#owner p{
+
+    font-family: Tahoma;
+    font-size: 15px;
+}
+#owner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#link a{
+
+    font-family: Tahoma;
+    font-size: 15px;
+    color: #779998;
+    margin-bottom: 20px;
+}
+#footer{
+    margin-top: -100px;
+
+    width: 100%;
 }
